@@ -1,7 +1,86 @@
 /*** variables ***/
 
 @c-main: #ff6633;
+@c-second: #999;
 
 /*** mixins ***/
 
 /*** markup ***/
+
+body {
+	font-family: Circe, Arial, sans-serif;
+}
+
+.container {
+	width: 980px;
+}
+
+.top {
+	padding: 25px 0 25px 0;
+}
+
+.phone {
+	text-align: right;
+	padding: 3px 0 0 0;
+
+	a {
+		color: @c-second;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+
+.date-wrapper {
+	border-right: 1px solid @c-second;
+
+	.date {
+		color: @c-main;
+		text-align: right;
+		font-weight: 900;
+		font-size: 48px;
+		text-transform: uppercase;
+	}
+
+	.date-hint {
+		display: block;
+		text-align: right;
+		color: @c-second;
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+}
+
+.short-info {
+	padding: 20px 0;
+
+	& > div {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.description {
+	color: #000;
+	font-size: 18px;
+}
+
+@font-face {
+	font-family: 'Circle';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/circle.otf');
+}
+
+@font-face {
+	font-family: 'Circle';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/circe-bold.otf');
+}
+
+@font-face {
+	font-family: 'Circle';
+	font-weight: 900;
+	font-style: normal;
+	src: url('../fonts/circe-extra-bold.otf');
+}
