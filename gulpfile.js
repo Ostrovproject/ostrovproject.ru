@@ -44,7 +44,7 @@ gulp.task('build', function () {
 });
 
 // Static server
-gulp.task('browser-sync', function() {
+gulp.task('browsersync', function() {
 	browserSync({
 		server: {
 			baseDir: "./src"
@@ -59,7 +59,7 @@ gulp.task('bs-reload', function () {
 });
 
 // Task for `gulp` command
-gulp.task('default',['less', 'browser-sync'], function() {
+gulp.task('default',['less', 'browsersync'], function() {
 	gulp.watch(paths.frontend_sources + '/less/*.less', ['less']);
 	gulp.watch(paths.frontend_sources + '*.html', ['bs-reload']);
 });
