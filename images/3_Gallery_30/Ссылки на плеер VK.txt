@@ -1,0 +1,12 @@
+1 видео
+
+http://vk.com/video-18283693_165588776
+
+<iframe src="//vk.com/video_ext.php?oid=-18283693&id=165588776&hash=650bf60cb5699e6c&hd=2" width="853" height="480"  frameborder="0"></iframe>
+
+
+2 видео
+
+http://vk.com/video-18283693_162894478
+
+<iframe src="//vk.com/video_ext.php?oid=-18283693&id=162894478&hash=959d8fdd4bbf0233&hd=2" width="853" height="480"  frameborder="0"></iframe>
