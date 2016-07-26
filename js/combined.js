@@ -1,4 +1,4 @@
-document.cookie="MCEvilPopupClosed\x3dno;expires\x3d-1;path\x3d/qqqqqqqqqqqqqqqq";
+document.cookie="MCEvilPopupClosed\x3dno;expires\x3d-1;path\x3d/";
 
 /*!
  * jQuery JavaScript Library v2.2.4
@@ -9846,7 +9846,7 @@ $(document).ready(function(){
 
   $('.j-request').on('click', function () {
   	//document.cookie = "MCEvilPopupClosed='No'; expires=-1";
-  	document.cookie="MCEvilPopupClosed\x3dno;expires\x3d-1;path\x3d/qqqqqqqqqqqqqqqq";
+  	document.cookie="MCEvilPopupClosed\x3dno;expires\x3d-1;path\x3d/";
     require(["mojo/signup-forms/Loader"], function (L) {
       L.start({"baseUrl": "mc.us13.list-manage.com", "uuid": "b72d9b54f584b4b190d5fc5f5", "lid": "e3096ec456"})
     });
