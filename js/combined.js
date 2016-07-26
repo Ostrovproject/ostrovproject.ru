@@ -9843,7 +9843,7 @@ $(document).ready(function(){
   // });
 
   $('.j-request').on('click', function () {
-  	document.cookie = "MCEvilPopupClosed='";
+  	document.cookie = "MCEvilPopupClosed='No'; expires=-1";
     require(["mojo/signup-forms/Loader"], function (L) {
       L.start({"baseUrl": "mc.us13.list-manage.com", "uuid": "b72d9b54f584b4b190d5fc5f5", "lid": "e3096ec456"})
     });
